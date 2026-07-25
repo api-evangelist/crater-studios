@@ -1,20 +1,81 @@
 aid: crater-studios
 name: Crater Studios
-description: Crater Studios is a company surfaced as a portfolio company of a16z and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Crater Studios is an AI-native game studio that builds core AI systems for game design,
+  decision making, and live operations, trained on real player behavior in production environments.
+  The company uses its own live game launches as production laboratories, shipping titles such as
+  Dwarven Realms, Gravebound, and Doomspire on Steam while building agentic tooling around them -
+  a GDD Maker that turns raw concepts into production-ready game design documents, a conversational
+  decision engine wired to live telemetry, automated playtesting agents, content moderation, and
+  localization. Crater publishes a set of playable browser prototypes on craterstudios.ai subdomains
+  as proof that its design agents can produce working core loops. Surfaced as an a16z portfolio
+  company. As of this enrichment pass Crater Studios publishes no public API, developer portal,
+  documentation, SDKs, or machine-readable specification - its AI systems are internal platform
+  infrastructure rather than a developer product.
 url: https://raw.githubusercontent.com/api-evangelist/crater-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://craterstudios.ai/og-image.png
 tags:
 - Company
+- Gaming
+- Games
+- Game Development
+- Artificial Intelligence
+- AI Agents
+- Live Operations
+- Venture Backed
 apis: []
+common:
+- type: DomainSecurity
+  url: security/crater-studios-domain-security.yml
+- type: LLMsTxt
+  name: Crater Studios llms.txt
+  url: llms/crater-studios-llms.txt
+- type: Website
+  name: Crater Studios (platform)
+  url: https://craterstudios.ai
+- type: Website
+  name: Crater Studios Games
+  url: https://www.craterstudiosgames.com
+- type: Community
+  name: Dwarven Realms Discord
+  url: https://discord.gg/dwarven-realms-769933876901969931
+- type: YouTube
+  name: Crater Studios on YouTube
+  url: https://www.youtube.com/@craterstudios_official
+- type: Twitch
+  name: Crater Studios on Twitch
+  url: https://www.twitch.tv/craterrman
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+  notes: Identified the live company surface (craterstudios.ai + craterstudiosgames.com,
+    8 playable prototypes, 3 Steam titles). No public API, docs, SDK, spec, MCP server,
+    or /.well-known/ documents exist - all 5 well-known paths 404 and every route is
+    the same SPA shell. Spec-dependent artifacts (packages, mcp, overlays, conformance,
+    errors, lifecycle, scopes, authentication, sandbox, conventions, changelog, cli,
+    components, data-model, asyncapi, skills) are not applicable. WebSearch budget was
+    exhausted; research was done via WebFetch, dig, and direct HTTP probing.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

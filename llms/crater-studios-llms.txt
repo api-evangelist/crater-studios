@@ -1,0 +1,43 @@
+# Crater Studios
+
+> Crater Studios is an AI-native game studio building core AI systems for game design, decision making, and live operations, trained on real player behavior in production environments. It ships live games as production laboratories for its agent platform. Crater Studios publishes no public API, developer portal, documentation, or SDKs as of 2026-07-20.
+
+## About
+
+- [Crater Studios platform](https://craterstudios.ai): AI-native game infrastructure — GDD Maker, live-telemetry decision engine, automated playtesting, moderation, and localization agents.
+- [Crater Studios Games](https://www.craterstudiosgames.com): the studio's game portfolio — action RPGs, extraction shooters, and roguelike deckbuilders.
+
+## Games
+
+- [Dwarven Realms](https://store.steampowered.com/app/2015240/Dwarven_Realms/): action RPG on Steam.
+- [Gravebound](https://store.steampowered.com/app/3613050/Gravebound/): title on Steam.
+- [Doomspire](https://store.steampowered.com/app/3621050/Doomspire/): title on Steam.
+
+## Playable agent prototypes
+
+Browser prototypes published by Crater Studios as evidence that its design agents can produce working core loops.
+
+- [GDD Maker](https://gddmaker.craterstudios.ai): Crater's game director agent, turning concepts into production-ready game design documents.
+- [Doomspire Game Director](https://doomspireagent.craterstudios.ai): game director agent for Doomspire.
+- [Dr Decision Engine](https://drdecisionengine.craterstudios.ai): conversational decision engine over live telemetry (Dwarven Realms).
+- [Balatro Clone](https://balatro.craterstudios.ai): poker roguelike deckbuilder prototype.
+- [Spell Forge](https://spellforge.craterstudios.ai): prototype.
+- [Spiderfall Protocol](https://spiderfall.craterstudios.ai): prototype.
+- [Micro City](https://microcity.craterstudios.ai): city builder prototype.
+- [Terraform Colony](https://terraform.craterstudios.ai): space idle tycoon prototype.
+
+## Community
+
+- [YouTube](https://www.youtube.com/@craterstudios_official)
+- [Twitch](https://www.twitch.tv/craterrman)
+- [Dwarven Realms Discord](https://discord.gg/dwarven-realms-769933876901969931)
+
+## Optional
+
+- [Domain security posture](https://raw.githubusercontent.com/api-evangelist/crater-studios/refs/heads/main/security/crater-studios-domain-security.yml): probed TLS/HSTS/DNS posture for Crater Studios hosts.
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/crater-studios/refs/heads/main/apis.yml): the API Evangelist profile for Crater Studios.
+
+## Notes
+
+- No public API, OpenAPI/AsyncAPI specification, developer documentation, SDK, CLI, MCP server, or `/.well-known/` discovery surface was found on craterstudios.ai as of 2026-07-20. Crater's AI systems are internal platform infrastructure, not a developer product.
+- Crater Studios is listed on the a16z investment list (https://a16z.com/investment-list/); that listing carries no website URL, so the craterstudios.ai match is by company name and sector.
